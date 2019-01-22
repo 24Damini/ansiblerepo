@@ -2,5 +2,5 @@
 - hosts: localhost
   gather_facts: no
   tasks:
-    - name: Print message-test04
+    - name: Print message-test05
       debug: msg="Hello from Ansible!!"
