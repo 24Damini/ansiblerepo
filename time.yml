@@ -12,4 +12,4 @@
     - name: check date
       command: date
       register: out
-    - debug: msg={{out.stdout}}
+    - debug: msg={{out.stdout}} -test01
